@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Lápis</title>
+    <style>
+        .lapis { cursor: pointer; padding: 10px; margin: 5px; border: 1px solid #000; }
+        .ativo { border-color: red; }
+    </style>
+</head>
+<body>
+    <div class="lapis" data-cor="vermelho" id="cor-vermelho">Lápis Vermelho</div>
+    <div class="lapis" data-cor="azul" id="cor-azul">Lápis Azul</div>
+    <div class="lapis" data-cor="verde" id="cor-verde">Lápis Verde</div>
+    <!-- Adicione mais lápis conforme necessário -->
+    <script src="script.js"></script>
+</body>
+</html>
